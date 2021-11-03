@@ -1,0 +1,288 @@
+#_________________________/\\\____________/\\\\\\\\\\___/\\\\\\\\\\\\_________
+#_________________________\/\\\__________/\\\///////\\\_\/\\\////////\\\______
+#__________________________\/\\\_________\///______/\\\__\/\\\______\//\\\____
+#___/\\\\\\\\__/\\\____/\\\_\/\\\________________/\\\//___\/\\\_______\/\\\___
+#__/\\\//////__\/\\\___\/\\\_\/\\\\\\\\\_________\////\\\__\/\\\_______\/\\\__
+#__/\\\_________\/\\\___\/\\\_\/\\\////\\\___________\//\\\_\/\\\_______\/\\\_
+#__\//\\\________\/\\\___\/\\\_\/\\\__\/\\\__/\\\______/\\\__\/\\\_______/\\\_
+#____\///\\\\\\\\_\//\\\\\\\\\__\/\\\\\\\\\__\///\\\\\\\\\/___\/\\\\\\\\\\\\/_
+#_______\////////___\/////////___\/////////_____\/////////_____\////////////__
+
+#SPRITE TEXTURES
+TEXTURES	92
+
+{
+#	TXNBR	PATH
+	1		./assets/surfaces/MCHIBAE-min.xpm
+	2		./assets/sprites/random/mchibabe.xpm
+	3		./assets/surfaces/MCHIBAE-min.xpm
+	4		./assets/sprites/random/mchibabe.xpm
+	5		./assets/sprites/collectibles/gold2.xpm
+	6		./assets/sprites/random/mchibabe.xpm
+
+#	PORTAL
+	7		./assets/sprites/portals/portal_frame_1.xpm
+	8		./assets/sprites/portals/portal_frame_2.xpm
+	9		./assets/sprites/portals/portal_frame_3.xpm
+	10		./assets/sprites/portals/portal_frame_4.xpm
+
+#	PURPLE PORTAL
+	86		./assets/sprites/portals/portal_pp_0.xpm
+	87		./assets/sprites/portals/portal_pp_1.xpm
+	88		./assets/sprites/portals/portal_pp_2.xpm
+	89		./assets/sprites/portals/portal_pp_3.xpm
+	90		./assets/sprites/portals/portal_pp_4.xpm
+	91		./assets/sprites/portals/portal_pp_5.xpm
+
+#	PROJECTILE FIREBALL
+	11		./assets/projectiles/fireball/fireball_1.xpm
+	12		./assets/projectiles/fireball/fireball_2.xpm
+	13		./assets/projectiles/fireball/fireball_3.xpm
+	14		./assets/projectiles/fireball/fireball_4.xpm
+	15		./assets/projectiles/fireball/fireball_5.xpm
+	16		./assets/projectiles/fireball/fireball_6.xpm
+	17		./assets/projectiles/fireball/fireball_7.xpm
+	18		./assets/projectiles/fireball/fireball_8.xpm
+	19		./assets/projectiles/fireball/fireball_9.xpm
+	20		./assets/projectiles/fireball/fireball_10.xpm
+	21		./assets/projectiles/fireball/fireball_11.xpm
+	22		./assets/projectiles/fireball/fireball_12.xpm
+	23		./assets/projectiles/fireball/fireball_13.xpm
+	24		./assets/projectiles/fireball/fireball_14.xpm
+	25		./assets/projectiles/fireball/fireball_15.xpm
+	26		./assets/projectiles/fireball/fireball_16.xpm
+	27		./assets/projectiles/fireball/fireball_17.xpm
+	28		./assets/projectiles/fireball/fireball_18.xpm
+	29		./assets/projectiles/fireball/fireball_19.xpm
+	30		./assets/projectiles/fireball/fireball_20.xpm
+	31		./assets/projectiles/fireball/fireball_21.xpm
+	32		./assets/projectiles/fireball/fireball_22.xpm
+	33		./assets/projectiles/fireball/fireball_23.xpm
+	34		./assets/projectiles/fireball/fireball_24.xpm
+
+#	EXPLOSION FIREBALL
+
+	35		./assets/explosions/fireball/fireball_explosion_1.xpm
+	36		./assets/explosions/fireball/fireball_explosion_2.xpm
+	37		./assets/explosions/fireball/fireball_explosion_3.xpm
+	38		./assets/explosions/fireball/fireball_explosion_4.xpm
+	39		./assets/explosions/fireball/fireball_explosion_5.xpm
+	40		./assets/explosions/fireball/fireball_explosion_6.xpm
+	41		./assets/explosions/fireball/fireball_explosion_7.xpm
+	42		./assets/explosions/fireball/fireball_explosion_8.xpm
+	43		./assets/explosions/fireball/fireball_explosion_9.xpm
+	44		./assets/explosions/fireball/fireball_explosion_10.xpm
+	45		./assets/explosions/fireball/fireball_explosion_11.xpm
+	46		./assets/explosions/fireball/fireball_explosion_12.xpm
+	47		./assets/explosions/fireball/fireball_explosion_13.xpm
+	48		./assets/explosions/fireball/fireball_explosion_14.xpm
+	49		./assets/explosions/fireball/fireball_explosion_15.xpm
+
+#	PROJECTILE GREEN FIREBALL
+	50		./assets/projectiles/green_fireball/green_fireball_1.xpm
+	51		./assets/projectiles/green_fireball/green_fireball_2.xpm
+	52		./assets/projectiles/green_fireball/green_fireball_3.xpm
+
+#	EXPLOSION GREEN FIREBALL
+	53		./assets/explosions/green_fireball/green_expl_1.xpm
+	54		./assets/explosions/green_fireball/green_expl_2.xpm
+	55		./assets/explosions/green_fireball/green_expl_3.xpm
+	56		./assets/explosions/green_fireball/green_expl_4.xpm
+	57		./assets/explosions/green_fireball/green_expl_5.xpm
+	58		./assets/explosions/green_fireball/green_expl_6.xpm
+
+#	MOB DEMON IDLE
+	59		./assets/mobs/demon/idle/demon_1.xpm
+#	MOB DEMON ATTACK
+	60		./assets/mobs/demon/attack/demon_2.xpm
+	61		./assets/mobs/demon/attack/demon_3.xpm
+	62		./assets/mobs/demon/attack/demon_4.xpm
+#	MOB DEMON HURT
+	63		./assets/mobs/demon/hurt/demon_5.xpm
+	64		./assets/mobs/demon/hurt/demon_6.xpm
+#	MOB DEMON death
+	65		./assets/mobs/demon/death/demon_death_1.xpm
+	66		./assets/mobs/demon/death/demon_death_2.xpm
+	67		./assets/mobs/demon/death/demon_death_3.xpm
+	68		./assets/mobs/demon/death/demon_death_4.xpm
+	69		./assets/mobs/demon/death/demon_death_5.xpm
+	70		./assets/mobs/demon/death/demon_death_6.xpm
+
+	71		./assets/sprites/potions/health_potion.xpm
+
+#	MOB MEATMAN IDLE
+	72		./assets/mobs/meatman/idle/meat_base.xpm
+#	MOB MEATMAN ATTACK
+	73		./assets/mobs/meatman/attack/meat_attack_0.xpm
+	74		./assets/mobs/meatman/attack/meat_attack_1.xpm
+	75		./assets/mobs/meatman/attack/meat_attack_2.xpm
+#	MOB MEATMAN WALK
+	76		./assets/mobs/meatman/move/meat_move_0.xpm
+	77		./assets/mobs/meatman/move/meat_move_1.xpm
+	78		./assets/mobs/meatman/move/meat_move_2.xpm
+	92		./assets/mobs/meatman/move/meat_move_3.xpm
+#	MOB MEATMAN HURT
+	79		./assets/mobs/meatman/hurt/meat_hurt.xpm
+#	MOB MEATMAN DEATH
+	80		./assets/mobs/meatman/death/meat_death_0.xpm
+	81		./assets/mobs/meatman/death/meat_death_1.xpm
+	82		./assets/mobs/meatman/death/meat_death_2.xpm
+	83		./assets/mobs/meatman/death/meat_death_3.xpm
+	84		./assets/mobs/meatman/death/meat_death_4.xpm
+	85		./assets/mobs/meatman/death/meat_death_5.xpm
+}
+
+#PLAYER PROJECTILE	TEXNBR
+PLAYER_PROJECTILE		11
+
+PLAYER_PROJECTILE_EXPLOSION	35
+
+#SPRITE ANIM
+ANIMATION
+
+{
+#	FRAME1	FRAME2	DELAY (IN SECONDS)
+#	1		2		0.25
+#	2		3		0.25
+#	3		1		0.25
+
+#PORTAL ANIMATION
+	7		8		0.1
+	8		9		0.1
+	9		10		0.1
+	10		7		0.1
+
+#PORTAL PURPLE
+	86		87		0.1
+	87		88		0.1
+	88		89		0.1
+	89		90		0.1
+	90		91		0.1
+	91		86		0.1
+
+#FIREBALL ANIMATION
+	11		12		0.075
+	12		13		0.075
+	13		14		0.075
+	14		15		0.075
+	15		16		0.075
+	16		17		0.075
+	17		18		0.075
+	18		19		0.075
+	19		20		0.075
+	20		21		0.075
+	21		22		0.075
+	22		23		0.075
+	23		24		0.075
+	24		25		0.075
+	25		26		0.075
+	26		27		0.075
+	27		28		0.075
+	28		29		0.075
+	29		30		0.075
+	30		31		0.075
+	31		32		0.075
+	32		33		0.075
+	33		34		0.075
+	34		11		0.075
+
+#FIREBALL EXPLOSION ANIMATION
+	35		36		0.05
+	36		37		0.05
+	37		38		0.05
+	38		39		0.05
+	39		40		0.05
+	40		41		0.05
+	41		42		0.05
+	42		43		0.05
+	43		44		0.05
+	44		45		0.05
+	45		46		0.05
+	46		47		0.05
+	47		48		0.05
+	48		49		0.05
+	49		END		0.05
+
+#PROJECTILE GREEN FIREBALL
+	50		51		0.075
+	51		52		0.075
+	52		50		0.075
+
+#EXPLOSION GREEN FIREBALL
+	53		54		0.05
+	54		55		0.05
+	55		56		0.05
+	56		57		0.05
+	57		58		0.05
+	58		END		0.05
+
+#MOB DEMON ATTACK
+	60		61		0.2
+	61		62		0.2
+	62		END		0.4
+#MOB DEMON HURT
+	63		64		0.2
+	64		END		0.4
+#MOB DEMON DEATH
+	65		66		0.1
+	66		67		0.1
+	67		68		0.1
+	68		69		0.1
+	69		70		0.1
+	70		END		0.1
+
+#MOB MEATMAN ATTACK
+	73		74		0.2
+	74		75		0.2
+	75		END		0.2
+#MOB MEATMAN WALK
+	76		77		0.15
+	77		78		0.15
+	78		92		0.15
+	92		76		0.15
+#MOB MEATMAN HURT
+	79		END		0.4
+#MOB MEATMAN DEATH
+	80		81		0.1
+	81		82		0.1
+	82		83		0.1
+	83		84		0.1
+	84		85		0.1
+	85		END		0.1
+}
+
+#SPRITE INFO
+INFO	10
+
+{
+#	TYPENBR	TXNBR	POSZ	H_DIV	W_DIV	COLLISION	TYPE
+	1		1		DOWN	2		2		Y			NONE
+	2		2		UP		2		2		N			NONE
+	3		5		DOWN	2		2		N			COLLECTIBLE
+	4		6		MID		2		2		Y			REMOVEABLE
+	5		1		UP		2		2		Y			NONE
+	6		7		MID		1		1		N			TELEPORT
+	7		71		DOWN	4		4		N			HEAL_1
+	8		59		UP		2		2		Y			NONE
+	9		72		DOWN	1		1		Y			NONE
+	10		86		MID		1		1		N			GOAL
+}
+
+#MOB_INFO
+MOB	2
+{
+#	TYPENBR	SPTYPE	WALK	ATTACK	PROJ	EXPL	HURT	DEATH	AI
+	1		8		59		60		50		53		63		65		TURRET
+	2		9		76		73		2		2		79		80		FIGHTER
+}
+
+# Valid arguments for TYPE set:
+#	NONE
+#	REMOVEABLE
+#	COLLECTIBLE
+#	TELEPORT
+
+#Valid arguments for POSZ set:
+#	UP
+#	MID
+#	DOWN

@@ -1,0 +1,66 @@
+#_________________________/\\\____________/\\\\\\\\\\___/\\\\\\\\\\\\_________
+#_________________________\/\\\__________/\\\///////\\\_\/\\\////////\\\______
+#__________________________\/\\\_________\///______/\\\__\/\\\______\//\\\____
+#___/\\\\\\\\__/\\\____/\\\_\/\\\________________/\\\//___\/\\\_______\/\\\___
+#__/\\\//////__\/\\\___\/\\\_\/\\\\\\\\\_________\////\\\__\/\\\_______\/\\\__
+#__/\\\_________\/\\\___\/\\\_\/\\\////\\\___________\//\\\_\/\\\_______\/\\\_
+#__\//\\\________\/\\\___\/\\\_\/\\\__\/\\\__/\\\______/\\\__\/\\\_______/\\\_
+#____\///\\\\\\\\_\//\\\\\\\\\__\/\\\\\\\\\__\///\\\\\\\\\/___\/\\\\\\\\\\\\/_
+#_______\////////___\/////////___\/////////_____\/////////_____\////////////__
+
+#SPRITE TEXTURES
+TEXTURES	28
+
+{
+#	TXNBR	PATH
+	1		./assets/surfaces/greybrick_1.xpm
+	2		./assets/surfaces/greybrick_2.xpm
+	3		./assets/surfaces/greybrick_3.xpm
+	4		./assets/surfaces/greybrick_4.xpm
+
+	5		./assets/surfaces/greystone_1.xpm
+	6		./assets/surfaces/greystone_2.xpm
+	7		./assets/surfaces/greystone_3.xpm
+
+	8		./assets/surfaces/moss_1.xpm
+	9		./assets/surfaces/moss_2.xpm
+	10		./assets/surfaces/moss_3.xpm
+
+	11		./assets/surfaces/roots.xpm
+
+	12		./assets/surfaces/sandstone_1.xpm
+	13		./assets/surfaces/sandstone_2.xpm
+	14		./assets/surfaces/sandstone_3.xpm
+
+	15		./assets/surfaces/pavement_derelict.xpm
+	16		./assets/surfaces/pavement_diamond.xpm
+	17		./assets/surfaces/pavement_split.xpm
+	18		./assets/surfaces/pavement_square.xpm
+	19		./assets/surfaces/pavement_wood.xpm
+
+	20		./assets/surfaces/mystic_stone.xpm
+
+	21		./assets/surfaces/big_green.xpm
+
+	22		./assets/surfaces/stained_glass_1.xpm
+	23		./assets/surfaces/stained_glass_2.xpm
+	24		./assets/surfaces/stained_glass_3.xpm
+
+	25		./assets/surfaces/forward.xpm
+	26		./assets/surfaces/backwards.xpm
+	27		./assets/surfaces/left.xpm
+	28		./assets/surfaces/right.xpm
+}
+
+#SKYBOX
+#		PATH
+
+SB		./assets/skybox/sky_red.xpm
+
+#SPRITE ANIM
+ANIMATION
+{
+#	FRAME1	FRAME2	DELAY (IN SECONDS)
+#	1		2		0.5
+#	2		1		0.5
+}
