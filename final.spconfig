@@ -13,12 +13,12 @@ TEXTURES	92
 
 {
 #	TXNBR	PATH
-	1		./assets/surfaces/MCHIBAE-min.xpm
-	2		./assets/sprites/random/mchibabe.xpm
-	3		./assets/surfaces/MCHIBAE-min.xpm
-	4		./assets/sprites/random/mchibabe.xpm
+	1		./assets/sprites/collectibles/gold2.xpm
+	2		./assets/sprites/collectibles/gold2.xpm
+	3		./assets/sprites/collectibles/gold2.xpm
+	4		./assets/sprites/collectibles/gold2.xpm
 	5		./assets/sprites/collectibles/gold2.xpm
-	6		./assets/sprites/random/mchibabe.xpm
+	6		./assets/sprites/collectibles/gold2.xpm
 
 #	PORTAL
 	7		./assets/sprites/portals/portal_frame_1.xpm

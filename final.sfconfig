@@ -9,20 +9,11 @@
 #_______\////////___\/////////___\/////////_____\/////////_____\////////////__
 
 #SPRITE TEXTURES
-TEXTURES	10
+TEXTURES	1
 
 {
 #	TXNBR	PATH
-	1		./assets/surfaces/brick.xpm
-	2		./assets/surfaces/grass.xpm
-	3		./assets/surfaces/metal.xpm
-	4		./assets/surfaces/stone.xpm
-	5		./assets/surfaces/wood.xpm
-	6		./assets/surfaces/hawaii.xpm
-	7		./assets/surfaces/neutral_milk_hotel.xpm
-	8		./assets/surfaces/the_protomen.xpm
-	9		./assets/surfaces/computer_savvy.xpm
-	10		./assets/surfaces/MCHIBAE-min.xpm
+	1		./assets/surfaces/greybrick_1.xpm
 }
 
 #SKYBOX
