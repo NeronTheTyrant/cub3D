@@ -23,8 +23,8 @@ These two settings need to be first in a .cub file
 ## Resolution
 ```
 #RESOLUTION
-# X		Y
-R 960 480
+# X     Y
+R 960   480
 ```
 The generated window's resolution.
 
