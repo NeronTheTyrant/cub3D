@@ -40,9 +40,9 @@ PATH: A relative path from the root of the project to the .xpm image to be used 
 #SURFACE ANIM
 ANIMATION
 {
-# FRAME1	FRAME2	DELAY (IN SECONDS)
-  1		2		0.5
-  2		1		0.5
+# FRAME1  FRAME2  DELAY (IN SECONDS)
+  1       2       0.5
+  2       1       0.5
 }
 ```
 Surface animations
