@@ -8,15 +8,14 @@ TEXTURES	6
 
 {
 # TXNBR PATH
-
-	1     ./assets/sprites/decorations/pot_small.xpm
-	2     ./assets/sprites/decorations/pot_med.xpm
-	3     ./assets/sprites/decorations/pot_tall.xpm
+  1     ./assets/sprites/decorations/pot_small.xpm
+  2     ./assets/sprites/decorations/pot_med.xpm
+  3     ./assets/sprites/decorations/pot_tall.xpm
 
 # PROJECTILE GREEN FIREBALL
-	4     ./assets/projectiles/green_fireball/green_fireball_1.xpm
-	5     ./assets/projectiles/green_fireball/green_fireball_2.xpm
-	6     ./assets/projectiles/green_fireball/green_fireball_3.xpm
+  4     ./assets/projectiles/green_fireball/green_fireball_1.xpm
+  5     ./assets/projectiles/green_fireball/green_fireball_2.xpm
+  6     ./assets/projectiles/green_fireball/green_fireball_3.xpm
 }
 ```
 The path to every sprite texture used in this config.
@@ -102,7 +101,7 @@ MOB	2
 {
 # TYPENBR	SPTYPE	WALK	ATTACK	PROJ	EXPL	HURT	DEATH	AI
   1       25      113   114     80    83    117   119   TURRET
-	2       26      129   126     80    83    133   134   FIGHTER
+  2       26      129   126     80    83    133   134   FIGHTER
 }
 ```
 Defines each type of monster
