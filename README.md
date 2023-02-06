@@ -31,9 +31,9 @@ Controls:
 ## Sort of a game!
 
 cub3D is my first "game" project. Originally meant as a homework assignment (from 42) this project was supposed to replicate a raycasting graphical engine to display walls, plain floors and ceilings, as well as some sprites. This was meant as an introduction to graphical projects.
-After a few months of having fun with it, this is the result. AWC is a very customizable game, you can easily make maps from the ground up, create sprites and enemies, animate them, and place them around your own levels.
+After a few months of having fun with it, this is the result. cub3D is sort of a game, you can make maps from the ground up, create sprites and enemies, animate them, and place them around your own levels.
 
-However, it kind of sucks! I'm very new to this, and what this project turned into has almost nothing to do with the original project. As such, the limitations of the original project impact cub3D's current form. Fixing these limitations would take time and effort that would be better spent on learning how to make games that don't suck, so I'll do that instead.
+However, it kind of sucks! I was very new to this when I did it, and what this project turned into has almost nothing to do with the original project. As such, the limitations of the original project impact cub3D's current form. Fixing these limitations would take time and effort that would be better spent on learning how to make games that don't suck, so I'll do that instead.
 
 ## Game Features
 
