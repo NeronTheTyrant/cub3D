@@ -6,11 +6,11 @@
 TEXTURES	4
 
 {
-#	TXNBR	PATH
-	1		./assets/surfaces/greybrick_1.xpm
-	2		./assets/surfaces/greybrick_2.xpm
-	3		./assets/surfaces/greybrick_3.xpm
-	4		./assets/surfaces/greybrick_4.xpm
+# TXNBR	PATH
+  1	./assets/surfaces/greybrick_1.xpm
+  2	./assets/surfaces/greybrick_2.xpm
+  3	./assets/surfaces/greybrick_3.xpm
+  4	./assets/surfaces/greybrick_4.xpm
 }
 ```
 The path to every surface texture used in this config.
@@ -42,7 +42,7 @@ ANIMATION
 {
 # FRAME1	FRAME2	DELAY (IN SECONDS)
   1		2		0.5
-	2		1		0.5
+  2		1		0.5
 }
 
 ```
