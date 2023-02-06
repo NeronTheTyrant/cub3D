@@ -29,6 +29,7 @@ R 960   480
 The generated window's resolution.
 
 X: the window's width in pixels
+
 Y: the window's height in pixels
 
 Note: Some things don't display properly with a very small window, and the game runs very poorly with a big window
@@ -42,8 +43,11 @@ MINI  5       5       12        184,240,195	  31,50,58      255,255,255
 The minimap's settings
 
 RATIO_X: The ratio of the total window screen the minimap should use for its width. Here, "5" means the minimap's width will be 1/5th of the screen's width
+
 RATIO_Y: Same as above, but for height
+
 TILESIZE: Number of tiles (see maps below) to be displayed around the player in the minimap
+
 WALL_COLOR, FLOOR_COLOR and PLAYER_COLOR: RGB color arguments. Use a `xyz,xyz,xyz` format
 
 ## Sprites, Teleporters and Monsters
@@ -74,7 +78,9 @@ The position of every sprite, teleporter and monster.
 Each setting requires brackets, and can receive any number of valid argument lines
 For each line:
 TYPE: This refers to a predefined sprite or montster type index, as defined in the linked sprite config file (.spconfig)
+
 POSX, POSY: the sprite/teleporter/monster's starting position in the map
+
 TPOSX, TPOSY: (Teleporters only) The coodinates to be teleported to.
 
 ## Next level
