@@ -31,6 +31,7 @@ Any alphanumeric character that is 'above' the limit that used in a .cub file wi
 SB  ./assets/skybox/sky_red.xpm
 ```
 The skybox to use for this config.
+
 PATH: A relative path from the root of the project to the .xpm image to be used for the skybox. 
 
 ## Animations
