@@ -1,6 +1,8 @@
 # cub3D
 A Wolfenstein3D-esque raycaster "game" coded in C using minilibx
 
+![cub3D showcase screenshot](https://github.com/NeronTheTyrant/cub3D/blob/main/screenshot.png)
+
 ## Setup
 
 **This will only compile on a Linux system with X11**
