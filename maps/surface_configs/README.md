@@ -4,7 +4,6 @@
 ```
 #SPRITE TEXTURES
 TEXTURES	4
-
 {
 # TXNBR	PATH
   1	./assets/surfaces/greybrick_1.xpm
@@ -44,7 +43,6 @@ ANIMATION
   1		2		0.5
   2		1		0.5
 }
-
 ```
 Surface animations
 Here you can manually define animations for your surface textures
