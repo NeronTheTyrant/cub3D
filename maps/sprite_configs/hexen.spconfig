@@ -1,0 +1,441 @@
+#_________________________/\\\____________/\\\\\\\\\\___/\\\\\\\\\\\\_________
+#_________________________\/\\\__________/\\\///////\\\_\/\\\////////\\\______
+#__________________________\/\\\_________\///______/\\\__\/\\\______\//\\\____
+#___/\\\\\\\\__/\\\____/\\\_\/\\\________________/\\\//___\/\\\_______\/\\\___
+#__/\\\//////__\/\\\___\/\\\_\/\\\\\\\\\_________\////\\\__\/\\\_______\/\\\__
+#__/\\\_________\/\\\___\/\\\_\/\\\////\\\___________\//\\\_\/\\\_______\/\\\_
+#__\//\\\________\/\\\___\/\\\_\/\\\__\/\\\__/\\\______/\\\__\/\\\_______/\\\_
+#____\///\\\\\\\\_\//\\\\\\\\\__\/\\\\\\\\\__\///\\\\\\\\\/___\/\\\\\\\\\\\\/_
+#_______\////////___\/////////___\/////////_____\/////////_____\////////////__
+
+#SPRITE TEXTURES
+TEXTURES	139
+
+{
+#	TXNBR	PATH
+
+#	GROUND DECOR
+	1		./assets/sprites/decorations/torch_00.xpm
+	2		./assets/sprites/decorations/torch_01.xpm
+	3		./assets/sprites/decorations/torch_02.xpm
+	4		./assets/sprites/decorations/torch_03.xpm
+	5		./assets/sprites/decorations/torch_04.xpm
+	6		./assets/sprites/decorations/torch_05.xpm
+	7		./assets/sprites/decorations/torch_06.xpm
+	8		./assets/sprites/decorations/torch_07.xpm
+	9		./assets/sprites/decorations/torch_08.xpm
+	10		./assets/sprites/decorations/torch_09.xpm
+	11		./assets/sprites/decorations/torch_10.xpm
+	12		./assets/sprites/decorations/torch_11.xpm
+	13		./assets/sprites/decorations/torch_12.xpm
+	14		./assets/sprites/decorations/torch_13.xpm
+	15		./assets/sprites/decorations/torch_14.xpm
+
+	16		./assets/sprites/decorations/cooking_pot_0.xpm
+	17		./assets/sprites/decorations/cooking_pot_1.xpm
+	18		./assets/sprites/decorations/cooking_pot_2.xpm
+	19		./assets/sprites/decorations/cooking_pot_3.xpm
+	20		./assets/sprites/decorations/cooking_pot_4.xpm
+	21		./assets/sprites/decorations/cooking_pot_5.xpm
+	22		./assets/sprites/decorations/cooking_pot_6.xpm
+
+	23		./assets/sprites/decorations/pot_small.xpm
+	24		./assets/sprites/decorations/pot_med.xpm
+	25		./assets/sprites/decorations/pot_tall.xpm
+
+#	MUSHROOM ZONE WOOOO
+	26		./assets/sprites/decorations/mush_big_1.xpm
+	27		./assets/sprites/decorations/mush_big_2.xpm
+	28		./assets/sprites/decorations/mush_big_3.xpm
+
+	29		./assets/sprites/decorations/mush_small_1.xpm
+	30		./assets/sprites/decorations/mush_small_2.xpm
+	31		./assets/sprites/decorations/mush_small_3.xpm
+	32		./assets/sprites/decorations/mush_small_4.xpm
+	33		./assets/sprites/decorations/mush_small_5.xpm
+
+#	CEILING DECOR
+	34		./assets/sprites/decorations/chain_ball.xpm
+	35		./assets/sprites/decorations/chain_head.xpm
+	36		./assets/sprites/decorations/chain_hook_1.xpm
+	37		./assets/sprites/decorations/chain_hook_2.xpm
+	38		./assets/sprites/decorations/chain_hook_meat.xpm
+	39		./assets/sprites/decorations/chain_long.xpm
+	40		./assets/sprites/decorations/chain_short.xpm
+
+#	PROJECTILE FIREBALL
+	41		./assets/projectiles/fireball/fireball_1.xpm
+	42		./assets/projectiles/fireball/fireball_2.xpm
+	43		./assets/projectiles/fireball/fireball_3.xpm
+	44		./assets/projectiles/fireball/fireball_4.xpm
+	45		./assets/projectiles/fireball/fireball_5.xpm
+	46		./assets/projectiles/fireball/fireball_6.xpm
+	47		./assets/projectiles/fireball/fireball_7.xpm
+	48		./assets/projectiles/fireball/fireball_8.xpm
+	49		./assets/projectiles/fireball/fireball_9.xpm
+	50		./assets/projectiles/fireball/fireball_10.xpm
+	51		./assets/projectiles/fireball/fireball_11.xpm
+	52		./assets/projectiles/fireball/fireball_12.xpm
+	53		./assets/projectiles/fireball/fireball_13.xpm
+	54		./assets/projectiles/fireball/fireball_14.xpm
+	55		./assets/projectiles/fireball/fireball_15.xpm
+	56		./assets/projectiles/fireball/fireball_16.xpm
+	57		./assets/projectiles/fireball/fireball_17.xpm
+	58		./assets/projectiles/fireball/fireball_18.xpm
+	59		./assets/projectiles/fireball/fireball_19.xpm
+	60		./assets/projectiles/fireball/fireball_20.xpm
+	61		./assets/projectiles/fireball/fireball_21.xpm
+	62		./assets/projectiles/fireball/fireball_22.xpm
+	63		./assets/projectiles/fireball/fireball_23.xpm
+	64		./assets/projectiles/fireball/fireball_24.xpm
+
+#	EXPLOSION FIREBALL
+
+	65		./assets/explosions/fireball/fireball_explosion_1.xpm
+	66		./assets/explosions/fireball/fireball_explosion_2.xpm
+	67		./assets/explosions/fireball/fireball_explosion_3.xpm
+	68		./assets/explosions/fireball/fireball_explosion_4.xpm
+	69		./assets/explosions/fireball/fireball_explosion_5.xpm
+	70		./assets/explosions/fireball/fireball_explosion_6.xpm
+	71		./assets/explosions/fireball/fireball_explosion_7.xpm
+	72		./assets/explosions/fireball/fireball_explosion_8.xpm
+	73		./assets/explosions/fireball/fireball_explosion_9.xpm
+	74		./assets/explosions/fireball/fireball_explosion_10.xpm
+	75		./assets/explosions/fireball/fireball_explosion_11.xpm
+	76		./assets/explosions/fireball/fireball_explosion_12.xpm
+	77		./assets/explosions/fireball/fireball_explosion_13.xpm
+	78		./assets/explosions/fireball/fireball_explosion_14.xpm
+	79		./assets/explosions/fireball/fireball_explosion_15.xpm
+
+#	PROJECTILE GREEN FIREBALL
+	80		./assets/projectiles/green_fireball/green_fireball_1.xpm
+	81		./assets/projectiles/green_fireball/green_fireball_2.xpm
+	82		./assets/projectiles/green_fireball/green_fireball_3.xpm
+
+#	EXPLOSION GREEN FIREBALL
+	83		./assets/explosions/green_fireball/green_expl_1.xpm
+	84		./assets/explosions/green_fireball/green_expl_2.xpm
+	85		./assets/explosions/green_fireball/green_expl_3.xpm
+	86		./assets/explosions/green_fireball/green_expl_4.xpm
+	87		./assets/explosions/green_fireball/green_expl_5.xpm
+	88		./assets/explosions/green_fireball/green_expl_6.xpm
+
+#	COLLECTIBLES
+
+	89		./assets/sprites/collectibles/coin_0.xpm
+	90		./assets/sprites/collectibles/coin_1.xpm
+	91		./assets/sprites/collectibles/coin_2.xpm
+	92		./assets/sprites/collectibles/coin_3.xpm
+	93		./assets/sprites/collectibles/coin_4.xpm
+	94		./assets/sprites/collectibles/coin_5.xpm
+	95		./assets/sprites/collectibles/coin_6.xpm
+	96		./assets/sprites/collectibles/coin_7.xpm
+
+#	POTIONS
+	97		./assets/sprites/potions/potion_blu_0.xpm
+	98		./assets/sprites/potions/potion_blu_1.xpm
+	99		./assets/sprites/potions/potion_blu_2.xpm
+
+	100		./assets/sprites/potions/potion_purp_0.xpm
+	101		./assets/sprites/potions/potion_purp_1.xpm
+	102		./assets/sprites/potions/potion_purp_2.xpm
+
+#	PORTAL
+	103		./assets/sprites/portals/portal_frame_1.xpm
+	104		./assets/sprites/portals/portal_frame_2.xpm
+	105		./assets/sprites/portals/portal_frame_3.xpm
+	106		./assets/sprites/portals/portal_frame_4.xpm
+
+#	PURPLE PORTAL
+	107		./assets/sprites/portals/portal_pp_0.xpm
+	108		./assets/sprites/portals/portal_pp_1.xpm
+	109		./assets/sprites/portals/portal_pp_2.xpm
+	110		./assets/sprites/portals/portal_pp_3.xpm
+	111		./assets/sprites/portals/portal_pp_4.xpm
+	112		./assets/sprites/portals/portal_pp_5.xpm
+
+
+#	MOB DEMON IDLE
+	113		./assets/mobs/demon/idle/demon_1.xpm
+#	MOB DEMON ATTACK
+	114		./assets/mobs/demon/attack/demon_2.xpm
+	115		./assets/mobs/demon/attack/demon_3.xpm
+	116		./assets/mobs/demon/attack/demon_4.xpm
+#	MOB DEMON HURT
+	117		./assets/mobs/demon/hurt/demon_5.xpm
+	118		./assets/mobs/demon/hurt/demon_6.xpm
+#	MOB DEMON death
+	119		./assets/mobs/demon/death/demon_death_1.xpm
+	120		./assets/mobs/demon/death/demon_death_2.xpm
+	121		./assets/mobs/demon/death/demon_death_3.xpm
+	122		./assets/mobs/demon/death/demon_death_4.xpm
+	123		./assets/mobs/demon/death/demon_death_5.xpm
+	124		./assets/mobs/demon/death/demon_death_6.xpm
+
+#	MOB MEATMAN IDLE
+	125		./assets/mobs/meatman/idle/meat_base.xpm
+#	MOB MEATMAN ATTACK
+	126		./assets/mobs/meatman/attack/meat_attack_0.xpm
+	127		./assets/mobs/meatman/attack/meat_attack_1.xpm
+	128		./assets/mobs/meatman/attack/meat_attack_2.xpm
+#	MOB MEATMAN WALK
+	129		./assets/mobs/meatman/move/meat_move_0.xpm
+	130		./assets/mobs/meatman/move/meat_move_1.xpm
+	131		./assets/mobs/meatman/move/meat_move_2.xpm
+	132		./assets/mobs/meatman/move/meat_move_3.xpm
+#	MOB MEATMAN HURT
+	133		./assets/mobs/meatman/hurt/meat_hurt.xpm
+#	MOB MEATMAN DEATH
+	134		./assets/mobs/meatman/death/meat_death_0.xpm
+	135		./assets/mobs/meatman/death/meat_death_1.xpm
+	136		./assets/mobs/meatman/death/meat_death_2.xpm
+	137		./assets/mobs/meatman/death/meat_death_3.xpm
+	138		./assets/mobs/meatman/death/meat_death_4.xpm
+	139		./assets/mobs/meatman/death/meat_death_5.xpm
+}
+
+#PLAYER PROJECTILE	TEXNBR
+PLAYER_PROJECTILE		41
+
+PLAYER_PROJECTILE_EXPLOSION	65
+
+#SPRITE ANIM
+ANIMATION
+
+{
+#	FRAME1	FRAME2	DELAY (IN SECONDS)
+
+#TORCH ANIMATION
+	1		2		0.075
+	2		3		0.075
+	3		4		0.075
+	4		5		0.075
+	5		6		0.075
+	6		7		0.075
+	7		8		0.075
+	8		9		0.075
+	9		10		0.075
+	10		11		0.075
+	11		12		0.075
+	12		13		0.075
+	13		14		0.075
+	14		15		0.075
+	15		1		0.075
+
+#COOKING POT ANIMATION
+	16		17		0.1
+	17		18		0.1
+	18		19		0.1
+	19		20		0.1
+	20		21		0.1
+	21		22		0.1
+	22		16		0.1
+
+#FIREBALL ANIMATION
+	41		42		0.075
+	42		43		0.075
+	43		44		0.075
+	44		45		0.075
+	45		46		0.075
+	46		47		0.075
+	47		48		0.075
+	48		49		0.075
+	49		50		0.075
+	50		51		0.075
+	51		52		0.075
+	52		53		0.075
+	53		54		0.075
+	54		55		0.075
+	55		56		0.075
+	56		57		0.075
+	57		58		0.075
+	58		59		0.075
+	59		60		0.075
+	60		61		0.075
+	61		62		0.075
+	62		63		0.075
+	63		64		0.075
+	64		41		0.075
+
+#FIREBALL EXPLOSION ANIMATION
+	65		66		0.05
+	66		67		0.05
+	67		68		0.05
+	68		69		0.05
+	69		70		0.05
+	70		71		0.05
+	71		72		0.05
+	72		73		0.05
+	73		74		0.05
+	74		75		0.05
+	75		76		0.05
+	76		77		0.05
+	77		78		0.05
+	78		79		0.05
+	79		END		0.05
+
+#PROJECTILE GREEN FIREBALL
+	80		81		0.075
+	81		82		0.075
+	82		80		0.075
+
+#EXPLOSION GREEN FIREBALL
+	83		84		0.05
+	84		85		0.05
+	85		86		0.05
+	86		87		0.05
+	87		88		0.05
+	88		END		0.05
+
+
+#COIN ANIMATION
+	89		90		0.1
+	90		91		0.1
+	91		92		0.1
+	92		93		0.1
+	93		94		0.1
+	94		95		0.1
+	95		96		0.1
+	96		89		0.1
+
+#POTION BLUE ANIMATION
+	97		98		0.15
+	98		99		0.15
+	99		97		0.15
+
+#POTION PURP ANIMATION
+	100		101		0.15
+	101		102		0.15
+	102		100		0.15
+	
+#PORTAL ANIMATION
+	103		104		0.1
+	104		105		0.1
+	105		106		0.1
+	106		103		0.1
+
+#PORTAL PURPLE
+	107		108		0.1
+	108		109		0.1
+	109		110		0.1
+	110		111		0.1
+	111		112		0.1
+	112		107		0.1
+
+
+#MOB DEMON ATTACK
+	114		115		0.2
+	115		116		0.2
+	116		END		0.4
+#MOB DEMON HURT
+	117		118		0.2
+	118		END		0.4
+#MOB DEMON DEATH
+	119		120		0.1
+	120		121		0.1
+	121		122		0.1
+	122		123		0.1
+	123		124		0.1
+	124		END		0.1
+
+#MOB MEATMAN ATTACK
+	126		127		0.2
+	127		128		0.2
+	128		END		0.2
+#MOB MEATMAN WALK
+	129		130		0.15
+	130		131		0.15
+	131		132		0.15
+	132		129		0.15
+#MOB MEATMAN HURT
+	133		END		0.4
+#MOB MEATMAN DEATH
+	134		135		0.1
+	135		136		0.1
+	136		137		0.1
+	137		138		0.1
+	138		139		0.1
+	139		END		0.1
+}
+
+#SPRITE INFO
+INFO	27
+
+{
+#	TYPENBR	TXNBR	POSZ	H_DIV	W_DIV	COLLISION	TYPE
+#COLLECTIBLES
+	1		89		MID		2		2		N			COLLECTIBLE
+
+#POTIONS
+	2		97		DOWN	1		1		N			HEAL_1
+	3		100		DOWN	2		2		N			HEAL_1
+
+#PORTALS
+	4		103		MID		1		1		N			TELEPORT
+	5		107		MID		1		1		N			GOAL
+
+#GROUND DECOR
+#	TORCH
+	6		1		DOWN	1		1		Y			NONE
+#	COOKING POT
+	7		16		DOWN	1		1		Y			NONE
+#	POTS (SMALL - MED - TALL)
+	8		23		DOWN	1		1		Y			REMOVEABLE
+	9		24		DOWN	1		1		Y			REMOVEABLE
+	10		25		DOWN	1		1		Y			REMOVEABLE
+#	MUSHROOMS (3 BIG, 5 SMALL)
+	11		26		DOWN	1		1		N			NONE
+	12		27		DOWN	1		1		N			NONE
+	13		29		DOWN	1		1		N			NONE
+	14		30		DOWN	1		1		N			NONE
+	15		31		DOWN	1		1		N			NONE
+	16		32		DOWN	1		1		N			NONE
+	17		33		DOWN	1		1		N			NONE
+
+#CEILING DECOR
+#	CHAIN BALL
+	18		34		UP		1		1		N			NONE
+#	CHAIN HEAD
+	19		35		UP		1		1		N			NONE
+#	CHAIN HOOK 1
+	20		36		UP		1		1		N			NONE
+#	CHAIN HOOK 2
+	21		37		UP		1		1		N			NONE
+#	CHAIN MEAT
+	22		38		UP		1		1		N			NONE
+#	CHAIN LONG
+	23		39		UP		1		1		N			NONE
+#	CHAIN SHORT
+	24		40		UP		1		1		N			NONE
+
+#MOBS
+#	DEMON
+	25		113		MID		1		1		Y			NONE
+#	MEATMAN
+	26		125		DOWN	1		1		Y			NONE
+# 	ANOTHER POTION I ADDED RETROACTIVELY... OOPS!
+	27		100		MID		2		2		N			HEAL_1
+}
+
+# Valid arguments for TYPE set:
+#	NONE
+#	REMOVEABLE
+#	COLLECTIBLE
+#	TELEPORT
+#	HEAL_1
+#	GOAL
+
+#Valid arguments for POSZ set:
+#	UP
+#	MID
+#	DOWN
+
+#MOB_INFO
+MOB	2
+{
+#	TYPENBR	SPTYPE	WALK	ATTACK	PROJ	EXPL	HURT	DEATH	AI
+	1		25		113		114		80		83		117		119		TURRET
+	2		26		129		126		80		83		133		134		FIGHTER
+}
+
+

@@ -1,71 +1,63 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   main.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mlebard <mlebard@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/30 17:17:35 by mlebard           #+#    #+#             */
-/*   Updated: 2021/07/13 11:57:49 by mlebard          ###   ########.fr       */
+/*   Created: 2021/03/15 14:50:14 by mlebard           #+#    #+#             */
+/*   Updated: 2021/07/13 11:03:38 by mlebard          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/cub3d.h"
 
-void	free_cub(t_cub *cub)
+int	load_map(t_cub *cub, char *path)
 {
-	if (cub->set.txnorth.img != NULL)
-		mlx_destroy_image(cub->mlx, cub->set.txnorth.img);
-	if (cub->set.txsouth.img != NULL)
-		mlx_destroy_image(cub->mlx, cub->set.txsouth.img);
-	if (cub->set.txeast.img != NULL)
-		mlx_destroy_image(cub->mlx, cub->set.txeast.img);
-	if (cub->set.txwest.img != NULL)
-		mlx_destroy_image(cub->mlx, cub->set.txwest.img);
-	if (cub->set.txsprite.img != NULL)
-		mlx_destroy_image(cub->mlx, cub->set.txsprite.img);
-	if (cub->map != NULL)
-		ft_freeargs(cub->map, ft_argcount(cub->map));
-	if (cub->sp != NULL)
-		free(cub->sp);
-	if (cub->z != NULL)
-		free(cub->z);
-}
+	t_file	mapfile;
 
-int	exit_done(t_cub *cub)
-{
-	free_cub(cub);
-	if (cub->win != NULL)
-		mlx_destroy_window(cub->mlx, cub->win);
-	mlx_destroy_display(cub->mlx);
-	free(cub->mlx);
-	exit(1);
+	mapfile.path = path;
+	if (check_file_extension(mapfile.path, ".cub") == 0)
+		exit_error(cub, ERR_FILE_EXTENSION, mapfile.path);
+	if (filecheck(mapfile.path) == -1)
+		exit_error(cub, ERR_NOT_FILE, mapfile.path);
+	mapfile.fd = open(mapfile.path, O_RDONLY);
+	if (cub->nextmap != NULL)
+	{
+		free(cub->nextmap);
+		cub->nextmap = NULL;
+	}
+	if (parse_cub(mapfile, cub) != 0)
+		exit_done(cub);
+	init_game_values(cub);
+	return (0);
 }
 
 int	main(int argc, char **argv)
 {
 	t_file	mapfile;
-	char	*temp;
-	t_cub	cub;
+	t_cub	*cub;
 
-	ft_bzero(&cub, sizeof(cub));
+	cub = malloc(sizeof(*cub));
+	if (cub == NULL)
+		return (cub_error(cub, ERR_MALLOC, NULL));
+	init_cub(cub);
 	if (argc == 3 && ft_strcmp(argv[2], "--save") == 0)
-		cub.save = 1;
-	if (cub.save == 1 || argc == 2)
+		cub->save = 1;
+	else if (argc == 3)
+		exit_error(cub, ERR_BAD_SAVE_ARG, argv[2]);
+	if (cub->save == 1 || argc == 2)
 	{
 		mapfile.path = argv[1];
-		temp = ft_strrchr(mapfile.path, '.');
-		if (temp == NULL || ft_strcmp(temp, ".cub") != 0)
-			return (file_error(mapfile.path, 1));
+		if (check_file_extension(mapfile.path, ".cub") == 0)
+			exit_error(cub, ERR_FILE_EXTENSION, mapfile.path);
 		if (filecheck(mapfile.path) == -1)
-			return (file_error(mapfile.path, 0));
+			exit_error(cub, ERR_NOT_FILE, mapfile.path);
 		mapfile.fd = open(mapfile.path, O_RDONLY);
-		cub.mlx = mlx_init();
-		if (parse_cub(mapfile, &cub) == 0)
-		{
-			start_gameloop(&cub);
-		}
+		cub->mlx = mlx_init();
+		if (parse_cub(mapfile, cub) == 0)
+			init_game(cub);
 	}
-	exit_done(&cub);
+	exit_done(cub);
 	return (0);
 }

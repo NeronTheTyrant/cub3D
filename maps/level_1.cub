@@ -10,11 +10,11 @@
 
 #SPRITE TEX & INFO & ANIMATION
 #	PATH
-SP_CONFIG	./hexen.spconfig
+SP_CONFIG	./maps/sprite_configs/hexen.spconfig
 
 #SURFACE TEX & INFO & ANIMATION
 #	PATH
-SF_CONFIG	./hexen.sfconfig
+SF_CONFIG	./maps/surface_configs/hexen.sfconfig
 
 #RESOLUTION
 #	X		Y

@@ -10,46 +10,54 @@
 
 #SPRITE TEX & INFO & ANIMATION
 #	PATH
-SP_CONFIG	./final.spconfig
+SP_CONFIG	./maps/sprite_configs/final.spconfig
 
 #SURFACE TEX & INFO & ANIMATION
 #	PATH
-SF_CONFIG	./hexen.sfconfig
+SF_CONFIG	./maps/surface_configs/hexen.sfconfig
 
 #RESOLUTION
-#	X		Y
+#	X     Y
 R	960		480
 
 #MINIMAP INFO
-#		RATIO_X	RATIO_Y	TILESIZE	WALL_COLOR		FLOOR_COLOR		PLAYER_COLOR
-MINI	5		5		12			184,240,195		31,50,58		255,255,255
+#		  RATIO_X	RATIO_Y	TILESIZE	WALL_COLOR		FLOOR_COLOR		PLAYER_COLOR
+MINI	5		    5		    12			  184,240,195		31,50,58		  255,255,255
+
+
+# For Sprites (SP), Teleportations (TP) and Monsters (MOB)
+# The TYPE argument refers to a predefined sprite or monster type index
+# As defined in the linked sprite config file (.spconfig)
 
 #SPRITE POS
 SP
 
 {
 #	TYPE	POSX	POSY
-	1		10.5	7.5
-	1		18.5	7	
-	2		1		18	
-	2		1		7	
-	1		7.8		3.2	
-	1		5.5		5.5
-	3		6.5		6.5
-	4		6.5		7.5
-	2		7.5		2.5
+	1		  10.5	7.5
+	1		  18.5	7	
+	2		  1		  18	
+	2		  1		  7	
+	1		  7.8		3.2	
+	1		  5.5		5.5
+	3		  6.5		6.5
+	4		  6.5		7.5
+	2		  7.5		2.5
 	10		3.5		14.5
 }
 
+# TELEPORT POS
 TP
 
 {
 #	TYPE	POSX	POSY	TPOSX	TPOSY
-	6		7.5		14.5	3.5		3.5
-	6		3.5		3.5		7.5		14.5
+	6		  7.5		14.5	3.5		3.5
+	6		  3.5		3.5		7.5		14.5
 }
 
+#MOB POS
 MOB
+
 {
 #	TYPE	POSX	POSY
 	1		13.5	4.5
@@ -64,6 +72,9 @@ MOB
 	2		18.5	11.5
 }
 
+
+# NEXT LEVEL
+#     MAPFILE
 NEXT	./maps/testload.cub
 
 #PLAYER & WALL MAP

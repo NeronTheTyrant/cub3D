@@ -13,7 +13,7 @@
 #include "libft.h"
 
 /*
-** usage: copies up to n bytes from srcs to dst until character c is copied
+** usage: copies up to n bytes from src to dst until character c is copied
 ** return: pointer to byte after c was copied in dest if OK, NULL if KO
 */
 

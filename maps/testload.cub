@@ -10,11 +10,11 @@
 
 #SPRITE TEX & INFO & ANIMATION
 #	PATH
-SP_CONFIG	./final.spconfig
+SP_CONFIG	./maps/sprite_configs/final.spconfig
 
 #SURFACE TEX & INFO & ANIMATION
 #	PATH
-SF_CONFIG	./final.sfconfig
+SF_CONFIG	./maps/surface_configs/final.sfconfig
 
 #RESOLUTION
 #	X		Y

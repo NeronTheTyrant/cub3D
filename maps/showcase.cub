@@ -10,11 +10,11 @@
 
 #SPRITE TEX & INFO & ANIMATION
 #	PATH
-SP_CONFIG	./final.spconfig
+SP_CONFIG	./maps/sprite_configs/final.spconfig
 
 #SURFACE TEX & INFO & ANIMATION
 #	PATH
-SF_CONFIG	./final.sfconfig
+SF_CONFIG	./maps/surface_configs/final.sfconfig
 
 #RESOLUTION
 #	X		Y
@@ -23,6 +23,10 @@ R	960		480
 #MINIMAP INFO
 #		RATIO_X	RATIO_Y	TILESIZE	WALL_COLOR		FLOOR_COLOR		PLAYER_COLOR
 MINI	5		5		12			184,240,195		31,50,58		255,255,255
+
+# For Sprites (SP), Teleportations (TP) and Monsters (MOB)
+# The TYPE argument refers to a predefined sprite or monster type index
+# As defined in the linked sprite config file (.spconfig)
 
 #SPRITE POS
 SP
@@ -42,11 +46,13 @@ MOB
 #	TYPE	POSX	POSY
 }
 
+# NEXT LEVEL
+#       PATH
 NEXT	NONE
 
 #PLAYER & WALL MAP
 #	LINENBR
-MAP 33
+MAP X
 
 {
 
