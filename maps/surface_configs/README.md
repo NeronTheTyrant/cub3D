@@ -21,7 +21,7 @@ Each path is a relative path from the root of the project.
 Important to note: Each texture here is automatically assigned to an alphanumerical character, to then be used in a .cub file as either a wall, a ceiling or a floor texture
 The order of assignment is as follows: '0' to '9', 'a' to 'z' (lowercase), then 'A' to 'Z' (uppercase).
 This means that specifying 15 textures will assign them to '0123456789abcde'.
-Any alphanumeric character that is 'above' the limit that used in a .cub file will use the first texture as a fallback.
+Any alphanumeric character that is 'above' the limit that is used in a .cub file will use the first texture as a fallback.
 
 ## Skybox
 ```
