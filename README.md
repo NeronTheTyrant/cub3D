@@ -19,14 +19,22 @@ Think of sprite configs and texture configs as "skins" for your sprites and wall
 Mapfiles on the other hand contain information like screen resolution and the actual map layout.
 
 Controls:
-- Move - WASD
-- Look left/right - Q / E
-- Look up/down - UpKey / DownKey
-- Sprint - LeftShift
-- Mace - O
-- Fireball - P
-- Minimap (toggle on/off) - M
-- Exit - Escape
+
+`W` `A` `S` `D`: Move
+
+`Q` `E` : Look left/right
+
+`↑` `↓` : Look up/down
+
+`LeftShift` : Sprint
+
+`O` : Mace
+
+`P` : Fireball
+
+`M` : Minimap (toggle on/off)
+
+`Esc` : Exit
 
 ## Sort of a game!
 
